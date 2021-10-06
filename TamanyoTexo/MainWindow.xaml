@@ -5,29 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TamanyoTexo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Tamaño de la fuente" Icon="/img/48.ico"
+        Height="370" Width="770">
     <Grid>
         <TextBox 
             x:Name="Texto"
-            Margin="0,53,214,160"
+            Margin="10,50,200,80"
             />
         <RadioButton
             x:Name="RBoton1"
             HorizontalAlignment="Left" 
             VerticalAlignment="Top" 
-            Margin="681,113,0,0"
+            Margin="650,100,0,0"
             Click="RBoton_Click"/>
         <RadioButton
             x:Name="RBoton2"
             HorizontalAlignment="Left" 
             VerticalAlignment="Top"  
-            Margin="681,147,0,0"
+            Margin="650,140,0,0"
             Click="RBoton_Click"/>
         <RadioButton
             x:Name="RBoton3"
             HorizontalAlignment="Left" 
             VerticalAlignment="Top"  
-            Margin="681,187,0,0"
+            Margin="650,180,0,0"
             Click="RBoton_Click"/>
     </Grid>
 </Window>
